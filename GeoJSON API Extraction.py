@@ -3,7 +3,7 @@ import urllib.request, urllib.parse, json, ssl
 # Set up api key
 api_key = False
 if api_key == False:
-    api_key = 42
+    api_key = 0
     service_url = "https://py4e-data.dr-chuck.net/geojson?"
 
 # Ignore SSL cert
